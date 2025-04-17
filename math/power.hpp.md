@@ -20,7 +20,7 @@ data:
   isVerificationFile: false
   path: math/power.hpp
   requiredBy: []
-  timestamp: '2025-04-17 22:08:13+09:00'
+  timestamp: '2025-04-17 22:12:32+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: math/power.hpp

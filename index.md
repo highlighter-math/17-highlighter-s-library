@@ -3,7 +3,7 @@ data:
   libraryCategories:
   - name: data_structure
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: data_structure/segtree.hpp
       title: data_structure/segtree.hpp
   - name: math
@@ -12,6 +12,11 @@ data:
       path: math/power.hpp
       title: math/power.hpp
   verificationCategories:
+  - name: verify/verify-yosupo-datastructure
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: verify/verify-yosupo-datastructure/staticrmq.test.cpp
+      title: verify/verify-yosupo-datastructure/staticrmq.test.cpp
   - name: verify/verify-yosupo-sample
     pages:
     - icon: ':heavy_check_mark:'
