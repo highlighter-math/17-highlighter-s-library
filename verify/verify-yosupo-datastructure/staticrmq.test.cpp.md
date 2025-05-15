@@ -45,7 +45,7 @@ data:
   isVerificationFile: true
   path: verify/verify-yosupo-datastructure/staticrmq.test.cpp
   requiredBy: []
-  timestamp: '2025-04-17 22:12:32+09:00'
+  timestamp: '2025-05-16 00:53:06+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: verify/verify-yosupo-datastructure/staticrmq.test.cpp

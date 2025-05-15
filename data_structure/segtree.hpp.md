@@ -38,7 +38,7 @@ data:
   isVerificationFile: false
   path: data_structure/segtree.hpp
   requiredBy: []
-  timestamp: '2025-04-17 22:12:32+09:00'
+  timestamp: '2025-05-16 00:53:06+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - verify/verify-yosupo-datastructure/staticrmq.test.cpp

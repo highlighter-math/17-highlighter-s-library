@@ -11,6 +11,11 @@ data:
     - icon: ':warning:'
       path: math/power.hpp
       title: math/power.hpp
+  - name: tree
+    pages:
+    - icon: ':warning:'
+      path: tree/LinkCutTree.cpp
+      title: tree/LinkCutTree.cpp
   verificationCategories:
   - name: verify/verify-yosupo-datastructure
     pages:
