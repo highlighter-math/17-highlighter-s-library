@@ -22,7 +22,7 @@ data:
   isVerificationFile: true
   path: verify/verify-yosupo-sample/aplusb.test.cpp
   requiredBy: []
-  timestamp: '2025-05-16 00:53:06+09:00'
+  timestamp: '2025-05-16 01:10:48+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: verify/verify-yosupo-sample/aplusb.test.cpp

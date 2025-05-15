@@ -4,11 +4,11 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
-  _pathExtension: cpp
+  _pathExtension: hpp
   _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "#line 2 \"tree/LinkCutTree.cpp\"\ntemplate <class S, S (*op)(S, S),\
+  bundledCode: "#line 2 \"tree/LinkCutTree.hpp\"\ntemplate <class S, S (*op)(S, S),\
     \ S (*e)()>\r\nstruct LinkCutTree {\r\n    struct Node {\r\n        int id;\r\n\
     \        Node *l = nullptr, *r = nullptr, *p = nullptr;\r\n        bool rev =\
     \ false;\r\n        S val, sum_ltr, sum_rtl;\r\n        Node(int _id, const S&\
@@ -123,15 +123,15 @@ data:
     \n        return nodes[v]->sum_ltr;\r\n    }\r\n};\r\n"
   dependsOn: []
   isVerificationFile: false
-  path: tree/LinkCutTree.cpp
+  path: tree/LinkCutTree.hpp
   requiredBy: []
-  timestamp: '2025-05-16 00:53:06+09:00'
+  timestamp: '2025-05-16 01:10:48+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: tree/LinkCutTree.cpp
+documentation_of: tree/LinkCutTree.hpp
 layout: document
 redirect_from:
-- /library/tree/LinkCutTree.cpp
-- /library/tree/LinkCutTree.cpp.html
-title: tree/LinkCutTree.cpp
+- /library/tree/LinkCutTree.hpp
+- /library/tree/LinkCutTree.hpp.html
+title: tree/LinkCutTree.hpp
 ---
