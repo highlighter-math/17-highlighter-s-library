@@ -4,11 +4,11 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
-  _pathExtension: cpp
+  _pathExtension: hpp
   _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "#line 2 \"math/factorize.cpp\"\nnamespace fast_factrize{\r\n  long\
+  bundledCode: "#line 2 \"math/factorize.hpp\"\nnamespace fast_factrize{\r\n  long\
     \ long fast_factrize_pow(long long n,long long k,const long long mod){\r\n   \
     \ __int128_t _n=n;\r\n    __int128_t res=1;\r\n    while(k){\r\n      if(k&1){\r\
     \n        res*=_n;\r\n        res%=mod;\r\n      }\r\n      _n*=_n;\r\n      _n%=mod;\r\
@@ -88,15 +88,15 @@ data:
     };\r\n//using namespace fast_factrize;"
   dependsOn: []
   isVerificationFile: false
-  path: math/factorize.cpp
+  path: math/factorize.hpp
   requiredBy: []
-  timestamp: '2025-05-16 01:10:48+09:00'
+  timestamp: '2025-05-16 23:14:34+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: math/factorize.cpp
+documentation_of: math/factorize.hpp
 layout: document
 redirect_from:
-- /library/math/factorize.cpp
-- /library/math/factorize.cpp.html
-title: math/factorize.cpp
+- /library/math/factorize.hpp
+- /library/math/factorize.hpp.html
+title: math/factorize.hpp
 ---

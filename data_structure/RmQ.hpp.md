@@ -100,7 +100,7 @@ data:
   isVerificationFile: false
   path: data_structure/RmQ.hpp
   requiredBy: []
-  timestamp: '2025-05-16 01:10:48+09:00'
+  timestamp: '2025-05-16 23:14:34+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: data_structure/RmQ.hpp

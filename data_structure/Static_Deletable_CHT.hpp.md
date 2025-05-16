@@ -25,7 +25,7 @@ data:
     \t\t\t\t}\n\t\t\t\telse{\n\t\t\t\t\treturn p.first*x+p.second;\n\t\t\t\t}\n\t\t\
     \t}\n\t\t\tpair<long long,long long> p=que.back();\n\t\t\treturn p.first*x+p.second;\n\
     \t\t}\n\t};\n\tvector<LiChao> vec;\n\tint N;\n\tvector<tuple<pair<long long,long\
-    \ long>,int,int>> mem;\n\tpublic:\n\tLiChaoSegmentTree(int Q) : vec(Q*2-1),N(Q){}\n\
+    \ long>,int,int>> mem;\n\tpublic:\n\tStatic_Deletable_CHT(int Q) : vec(Q*2-1),N(Q){}\n\
     \tvoid add_line(int l,int r,pair<long long,long long> p){\n\t\t//[l,r)\u306Bp\u3092\
     \u8FFD\u52A0\n\t\t//\u5F8C\u3067\u307E\u3068\u3081\u3066\u884C\u3046\n\t\tif(l>=r)\
     \ return;\n\t\tmem.emplace_back(make_tuple(p,l,r));\n\t}\n\tvoid build(){\n\t\t\
@@ -54,7 +54,7 @@ data:
     \t\t\t\t}\n\t\t\t\telse{\n\t\t\t\t\treturn p.first*x+p.second;\n\t\t\t\t}\n\t\t\
     \t}\n\t\t\tpair<long long,long long> p=que.back();\n\t\t\treturn p.first*x+p.second;\n\
     \t\t}\n\t};\n\tvector<LiChao> vec;\n\tint N;\n\tvector<tuple<pair<long long,long\
-    \ long>,int,int>> mem;\n\tpublic:\n\tLiChaoSegmentTree(int Q) : vec(Q*2-1),N(Q){}\n\
+    \ long>,int,int>> mem;\n\tpublic:\n\tStatic_Deletable_CHT(int Q) : vec(Q*2-1),N(Q){}\n\
     \tvoid add_line(int l,int r,pair<long long,long long> p){\n\t\t//[l,r)\u306Bp\u3092\
     \u8FFD\u52A0\n\t\t//\u5F8C\u3067\u307E\u3068\u3081\u3066\u884C\u3046\n\t\tif(l>=r)\
     \ return;\n\t\tmem.emplace_back(make_tuple(p,l,r));\n\t}\n\tvoid build(){\n\t\t\
@@ -71,7 +71,7 @@ data:
   isVerificationFile: false
   path: data_structure/Static_Deletable_CHT.hpp
   requiredBy: []
-  timestamp: '2025-05-16 01:10:48+09:00'
+  timestamp: '2025-05-16 23:14:34+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: data_structure/Static_Deletable_CHT.hpp
